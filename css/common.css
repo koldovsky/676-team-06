@@ -1,0 +1,12 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap');
+:root {
+    ---main-color: #261e1c;
+    --dark:
+}
+*{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Prata', serif;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
