@@ -1,4 +1,4 @@
-.faq {
+.information {
     background-color:#261c1c;
 }
 .header-text-faq{
@@ -9,30 +9,52 @@
 .header-text-have-a-question{
     font-family: 'Prata', serif;
     font-size: 34px;
+    color: white; 
 }
 .questions {
     font-family: 'Prata' , serif;
     font-size: 22px;
+    color: white; 
 }
 .answer {
     font-family: 'Rubik' , sans-serif;
     font-size: 16px;
     color: rgb(137, 128, 130);
 }
+.fast-free-shipping {
+    font-family: 'Prata' , serif;
+    font-size: 22px;
+    color: white; 
+}
 .fast-free-shipping__subtext {
 font-family: 'Rubik' , sans-serif;
 font-size: 16px;
 color: rgb(137, 128, 130)
+}
+.secure-payments {
+    font-family: 'Prata' , serif;
+    font-size: 22px;
+    color: white; 
 }
 .secure-payments__subtext {
     font-family: 'Rubik' , sans-serif;
 font-size: 16px;
 color: rgb(137, 128, 130)
 }
+.eco-friendly {
+    font-family: 'Prata' , serif;
+    font-size: 22px;
+    color: white; 
+}
 .eco-friendly__subtext {
     font-family: 'Rubik' , sans-serif;
     font-size: 16px;
     color: rgb(137, 128, 130)
+}
+.discount-system {
+    font-family: 'Prata' , serif;
+    font-size: 22px;
+    color: white; 
 }
 .discount-system__subtext {
     font-family: 'Rubik' , sans-serif;
