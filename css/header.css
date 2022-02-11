@@ -1,0 +1,83 @@
+/* header logo and nav */
+
+.header {
+    background-size: cover;
+    background-image: url(../img/header-wine.png);
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.header__nav-logo {
+    padding: 30px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-img {
+    height: 44px;
+}
+
+/* header main content */
+
+.header__intro-container {
+    padding: 120px 25px;
+
+}
+
+/* text header */
+
+.header__text-test-wine {
+    color: var(--text-color-orange);
+    font-family: 'Great Vibes';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header__text-content {
+    color: var(--text-color-white);
+    font-family: 'Prata';
+    font-size: 58px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.header__text-info {
+    color: var(--text-color-white);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+/* little stick of wine */
+
+.header__stick-img {
+    width: 170px;
+    height: 42px;
+    object-fit: contain;
+    object-position: 0 50%;
+}
+
+/* button */
+
+.header__link-gruop {
+    margin-top: 15px;
+}
+
+
+.header__link-shop-now {
+    border: 3px solid #c8693a;
+    background-color: #c8693a;
+    padding: 10px 20px;
+    color: var(--text-color-white);
+    margin-right: 10px;
+}
+
+.header__link-learn_more {
+    border: 3px solid #fff;
+    color: var(--text-color-white);
+    padding: 10px 20px;
+
+}
