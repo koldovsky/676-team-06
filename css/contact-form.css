@@ -1,4 +1,4 @@
-.contact-form {
+#contact-form {
     background-color: #1a1512;
     color:#fff;
     padding: 110px 0px 15px;
@@ -38,9 +38,6 @@ font-weight: 400;
 text-decoration: none;
 font-style: normal;
 letter-spacing: 0
-}
-.contact-form_container--email_box{
-   
 }
 .contact-form_container--email_box input{
     font-family: Rubik;
