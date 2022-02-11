@@ -24,7 +24,8 @@
 .fast-free-shipping {
     font-family: 'Prata' , serif;
     font-size: 22px;
-    color: white; 
+    color: white;
+   
 }
 .fast-free-shipping__subtext {
 font-family: 'Rubik' , sans-serif;
@@ -35,6 +36,7 @@ color: rgb(137, 128, 130)
     font-family: 'Prata' , serif;
     font-size: 22px;
     color: white; 
+
 }
 .secure-payments__subtext {
     font-family: 'Rubik' , sans-serif;
