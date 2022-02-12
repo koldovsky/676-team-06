@@ -98,4 +98,15 @@
 }
 
 @media (min-width: 768px) {
+  .header__inner-container {
+    margin-left: 305px;
+  }
+
+  .header__text-test-wine {
+    font-size: 21px;
+  }
+
+  .header__text-content {
+    font-size: 71px;
+  }
 }
