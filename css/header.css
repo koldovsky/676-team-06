@@ -23,10 +23,16 @@
   list-style-type: none;
 }
 
+/* nav, social */
+
+.header__nav-social {
+  display: none;
+}
+
 /* main content */
 
 .header__intro-container {
-  padding: 120px 25px;
+  padding: 200px 25px;
 }
 
 /* text */
@@ -74,7 +80,7 @@
 .header__link-shop-now {
   border: 3px solid #c8693a;
   background-color: #c8693a;
-  padding: 15px 20px;
+  padding: 15px 25px;
   color: var(--text-color-white);
   margin-right: 10px;
   font-weight: 700;
@@ -85,8 +91,11 @@
 .header__link-learn_more {
   border: 3px solid #fff;
   color: var(--text-color-white);
-  padding: 15px 20px;
+  padding: 15px 25px;
   font-weight: 700;
   font-size: 16.5px;
   font-family: "Rubik";
+}
+
+@media (min-width: 768px) {
 }
