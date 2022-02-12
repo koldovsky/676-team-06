@@ -1,83 +1,92 @@
-/* header logo and nav */
+/* logo and nav */
 
 .header {
-    background-size: cover;
-    background-image: url(../img/header-wine.png);
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
+  background-size: cover;
+  background-image: url(../img/header-wine.png);
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .header__nav-logo {
-    padding: 30px 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo-img {
-    height: 44px;
+  height: 44px;
 }
 
-/* header main content */
+.header__nav-list-item {
+  list-style-type: none;
+}
+
+/* main content */
 
 .header__intro-container {
-    padding: 120px 25px;
-
+  padding: 120px 25px;
 }
 
-/* text header */
+/* text */
 
 .header__text-test-wine {
-    color: var(--text-color-orange);
-    font-family: 'Great Vibes';
-    font-size: 14px;
-    font-weight: 400;
+  color: var(--text-color-orange);
+  font-family: "Great Vibes";
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .header__text-content {
-    color: var(--text-color-white);
-    font-family: 'Prata';
-    font-size: 58px;
-    font-weight: 400;
-    margin-top: 15px;
+  color: var(--text-color-white);
+  font-family: "Prata";
+  font-size: 58px;
+  font-weight: 400;
+  margin-top: 15px;
+  line-height: 120%;
 }
 
 .header__text-info {
-    color: var(--text-color-white);
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 15px;
+  color: var(--text-color-white);
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
 }
 
-/* little stick of wine */
+/* img little stick of wine */
 
 .header__stick-img {
-    width: 170px;
-    height: 42px;
-    object-fit: contain;
-    object-position: 0 50%;
+  width: 170px;
+  height: 42px;
+  object-fit: contain;
+  object-position: 0 50%;
+  margin-top: 40px;
 }
 
 /* button */
 
 .header__link-gruop {
-    margin-top: 15px;
+  margin-top: 70px;
 }
 
-
 .header__link-shop-now {
-    border: 3px solid #c8693a;
-    background-color: #c8693a;
-    padding: 10px 20px;
-    color: var(--text-color-white);
-    margin-right: 10px;
+  border: 3px solid #c8693a;
+  background-color: #c8693a;
+  padding: 15px 20px;
+  color: var(--text-color-white);
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 16.5px;
+  font-family: "Rubik";
 }
 
 .header__link-learn_more {
-    border: 3px solid #fff;
-    color: var(--text-color-white);
-    padding: 10px 20px;
-
+  border: 3px solid #fff;
+  color: var(--text-color-white);
+  padding: 15px 20px;
+  font-weight: 700;
+  font-size: 16.5px;
+  font-family: "Rubik";
 }
