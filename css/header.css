@@ -143,6 +143,12 @@
 }
 /* media */
 
+@media (min-width: 320px) {
+  .header__link-learn_more {
+    padding: 15px 24px;
+  }
+}
+
 @media (max-width: 344px) {
   .header__link-gruop {
     margin-top: 70px;
