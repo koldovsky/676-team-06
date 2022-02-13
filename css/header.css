@@ -80,7 +80,7 @@
 .header__link-shop-now {
   border: 3px solid #c8693a;
   background-color: #c8693a;
-  padding: 18px 26px;
+  padding: 15px 30px;
   color: var(--text-color-white);
   margin-right: 10px;
   font-weight: 700;
@@ -92,7 +92,7 @@
 .header__link-learn_more {
   border: 3px solid #fff;
   color: var(--text-color-white);
-  padding: 18px 26px;
+  padding: 15px 30px;
   font-weight: 700;
   font-size: 16.5px;
   font-family: "Rubik";
@@ -177,5 +177,15 @@
   }
   .header__text-content {
     font-size: 84px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header__nav-logo {
+    padding: 30px 55px;
+  }
+
+  .header__inner-container {
+    margin-left: 550px;
   }
 }
