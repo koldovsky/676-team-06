@@ -28,7 +28,7 @@
     display: block;
     box-sizing: border-box;
     cursor: text;
-    color: var(--text-color-white);
+    color: var(--text-color);
     background-color: rgba(73, 73, 73, 0.24);
 }
 .contact-form_container--email_box input:hover{
