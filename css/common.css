@@ -4,8 +4,8 @@
 :root {
   --main-color: #261e1c;
   --dark: #1b1613;
-  --text-color-white: #fff;
-  --text-color-orange: #c8693a;
+  --text-color: #fff;
+  --button-color: #c8693a;
 }
 
 * {
