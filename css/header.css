@@ -144,6 +144,17 @@
   opacity: 1;
   width: 100%;
 }
+
+/* icons */
+
+.social_links {
+  transition: transform 0.2s linear;
+}
+
+.social_links:hover {
+  transform: translateY(-5px);
+}
+
 /* media */
 
 @media (min-width: 320px) {
