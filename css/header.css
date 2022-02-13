@@ -80,24 +80,32 @@
 .header__link-shop-now {
   border: 3px solid #c8693a;
   background-color: #c8693a;
-  padding: 15px 25px;
+  padding: 18px 26px;
   color: var(--text-color-white);
   margin-right: 10px;
   font-weight: 700;
   font-size: 16.5px;
   font-family: "Rubik";
+  border-radius: 2px;
 }
 
 .header__link-learn_more {
   border: 3px solid #fff;
   color: var(--text-color-white);
-  padding: 15px 25px;
+  padding: 18px 26px;
   font-weight: 700;
   font-size: 16.5px;
   font-family: "Rubik";
+  border-radius: 2px;
 }
 
+/* media */
+
 @media (min-width: 768px) {
+  .header__nav-logo {
+    padding: 32px;
+  }
+
   .header__inner-container {
     margin-left: 305px;
   }
@@ -108,5 +116,32 @@
 
   .header__text-content {
     font-size: 71px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header__nav-social {
+    display: flex;
+  }
+
+  .header__nav-logo {
+    background-color: rgba(8, 5, 5, 0.5);
+  }
+
+  .hedear__nav-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header__menu-name {
+    color: var(--text-color-white);
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+
+  .header__socials-icons {
+    display: flex;
   }
 }
