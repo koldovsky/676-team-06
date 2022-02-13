@@ -120,10 +120,6 @@
 }
 
 @media (min-width: 992px) {
-  .header__nav-social {
-    display: flex;
-  }
-
   .header__nav-logo {
     background-color: rgba(8, 5, 5, 0.5);
   }
@@ -135,13 +131,36 @@
 
   .header__menu-name {
     color: var(--text-color-white);
-    font-weight: 500;
+    font-weight: 550;
     font-family: "Rubik", sans-serif;
     font-size: 14px;
-    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .header__nav-social {
+    display: flex;
+    align-items: center;
   }
 
   .header__socials-icons {
     display: flex;
+    margin-right: 20px;
+    align-items: center;
+  }
+
+  .social_links > img {
+    margin-right: 20px;
+  }
+
+  /* text */
+
+  .header__inner-container {
+    margin-left: 450px;
+  }
+  .header__text-test-wine {
+    font-size: 28px;
+  }
+  .header__text-content {
+    font-size: 84px;
   }
 }
