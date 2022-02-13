@@ -87,6 +87,8 @@
   font-size: 16.5px;
   font-family: "Rubik";
   border-radius: 2px;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .header__link-learn_more {
@@ -97,6 +99,7 @@
   font-size: 16.5px;
   font-family: "Rubik";
   border-radius: 2px;
+  display: inline-block;
 }
 
 .header__link-shop-now:hover {
