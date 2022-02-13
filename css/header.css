@@ -78,8 +78,8 @@
 }
 
 .header__link-shop-now {
-  border: 3px solid #c8693a;
-  background-color: #c8693a;
+  border: 3px solid var(--text-color-orange);
+  background-color: var(--text-color-orange);
   padding: 15px 30px;
   color: var(--text-color-white);
   margin-right: 10px;
@@ -110,7 +110,7 @@
 }
 
 .header__link-learn_more:hover {
-  background-color: #fff;
+  background-color: var(--text-color-white);
   color: var(--dark);
   transition: background-color 0.5s linear, color 0.5s linear,
     border 0.5s linear;
@@ -123,7 +123,7 @@
 }
 
 .header__menu-name:hover {
-  color: #c8693a;
+  color: var(--text-color-orange);
   transition: color 0.2s linear;
 }
 
@@ -132,7 +132,7 @@
   width: 100%;
   position: absolute;
   height: 2px;
-  background-color: #c8693a;
+  background-color: var(--text-color-orange);
   bottom: -5px;
   left: 0;
   z-index: 1;
