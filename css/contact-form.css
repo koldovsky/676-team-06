@@ -1,69 +1,127 @@
-#contact-form {
-    background-color: #1a1512;
-    color:#fff;
-    padding: 110px 0px 15px;
+
+@media (min-width:992px){
+   #contact-form{
+    padding-top: 110px;
+    padding-bottom: 15px;
+   }
+   .contact-form_container-box{
+    padding-top: 100px;
+   }
 }
-.contact-form_container {
-    margin: 0 60px;
-    padding: 0 15px;
+@media (min-width: 768px){
+    #contact-form{
+        padding-top: 100px;
+        padding-bottom: 15px;
+       }
+       .contact-form_container-box{
+        padding-top: 95px;
+       }
 }
-.contact-form_container-box{
-    display: flex;
-    justify-content: space-between;
-}
-.contact-form_container--text_box h4{
-    color: #c8693a;
-    font-family: Great Vibes;
-    font-size: 28px;
-    line-height: 1.4;
+@media (min-width: 1560px){
+    #contact-form {
+        background-color: #1a1512;
+        color:#fff;
+        padding: 110px 0px 15px;
+    }
+    .contact-form_container {
+        margin: 0 191.5px;
+        padding: 0 15px;
+        max-width: 1200px;
+        width: 100%;
+    }
+    .contact-form_container-box{
+      display: flex;
+    }
+    .contact-form_container-box__content{
+        padding: 0 15px;
+        margin: auto;
+        margin-left: 0;
+        display: flex;
+    }
+    .-box__content--text .join{
+        color: #c8693a;
+        font-size: 28px;
+        line-height: 1.4;
+        font-family: Great Vibes,undefined;
+        font-weight: 400;
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: 0;
+        text-transform: none;
+    }
+    .-box__content--text h3{
+        color: #fff;
+        font-size: 32px;
+        font-family: Prata;
+        font-weight: 400;
+        letter-spacing: -.039em;
+        text-decoration: none;
+        font-style: normal;
+        margin-top: 20px;
+    }
+    .-box__content--text p{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Rubik,sans-serif;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
-}
-.contact-form_container--text_box h3{
-    color: #fff;
-    font-size: 32px;
-    font-family: Prata;
-    font-weight: 400;
-    letter-spacing: -.039em;
-    text-decoration: none;
-    font-style: normal;
-}
-.contact-form_container--text_box p{
-font-size: 16px;
-line-height: 1.6;
-font-family: Rubik,sans-serif;
-font-weight: 400;
-text-decoration: none;
-font-style: normal;
-letter-spacing: 0
-}
-.contact-form_container--email_box input{
-    font-family: Rubik;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 18px;
-    color: #ffffffff;
-    background-color: --main-color ;
-}
-.submit {
-    font-family: Rubik;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 15px;
-    color: #fff;
-    background-color: #c8693a;
-    border: 3px;
-    box-sizing: border-box;
-}
-#contact-form_divider {
-    padding: 15px 0;
-    box-sizing: border-box;
-}
-#contact-form_divider--component {
-border: 1px solid;
-border-color: #ffffff24;
-}
+    margin-top: 25px;
+    }
+    .contact-form_container--email_box{
+        padding: 0 15px;
+        margin-top: 12px;
+        display: block;
+    }
+    .contact-form_container--email_box input{
+        font-family: Rubik;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #ffffffff;
+        background-color: rgba(73, 73, 73, 0.24);
+        border-color: #f2efe9;
+        border-radius: 2px;
+        margin: 12px 0;
+        padding: 16px 25px;
+        text-rendering: auto;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        text-align: start;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        margin: 0em;
+        width: 83.5%;
+    }
+    .submit {
+        font-family: Rubik;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 1em;
+        color: #fff;
+        background-color: #c8693a;
+        border: 3px;
+        box-sizing: border-box;
+        margin-top: 24px;
+        width: 100%;
+        padding: 16px 25px;
+        border-radius: 2px;
+        letter-spacing: 0;
+        align-items: flex-start;
+    }
+    #contact-form_divider {
+        padding: 15px 0;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
+    #contact-form_divider--component {
+    border: 1px solid;
+    border-color: #ffffff24;
+    }
+    }
