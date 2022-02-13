@@ -71,7 +71,7 @@
   margin-top: 40px;
 }
 
-/* button */
+/* button  */
 
 .header__link-gruop {
   margin-top: 70px;
@@ -80,7 +80,7 @@
 .header__link-shop-now {
   border: 3px solid #c8693a;
   background-color: #c8693a;
-  padding: 18px 26px;
+  padding: 15px 30px;
   color: var(--text-color-white);
   margin-right: 10px;
   font-weight: 700;
@@ -92,15 +92,72 @@
 .header__link-learn_more {
   border: 3px solid #fff;
   color: var(--text-color-white);
-  padding: 18px 26px;
+  padding: 15px 30px;
   font-weight: 700;
   font-size: 16.5px;
   font-family: "Rubik";
   border-radius: 2px;
 }
 
+.header__link-shop-now:hover {
+  background-color: #9b5837;
+  border: 3px solid #9b5837;
+  transition: background-color 0.7s linear, color 0.7s linear,
+    border 0.7s linear;
+}
+
+.header__link-learn_more:hover {
+  background-color: #fff;
+  color: var(--dark);
+  transition: background-color 0.5s linear, color 0.5s linear,
+    border 0.5s linear;
+}
+
+/* nav links */
+
+.header__menu-name {
+  position: relative;
+}
+
+.header__menu-name:hover {
+  color: #c8693a;
+  transition: color 0.2s linear;
+}
+
+.header__menu-name:after {
+  content: " ";
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  background-color: #c8693a;
+  bottom: -5px;
+  left: 0;
+  z-index: 1;
+  transition: width 0.4s linear;
+  opacity: 0;
+}
+
+.header__menu-name:hover:after {
+  opacity: 1;
+  width: 100%;
+}
 /* media */
 
+@media (max-width: 344px) {
+  .header__link-gruop {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header__link-shop-now {
+    display: inline-block;
+    margin: 10px 60px;
+  }
+  .header__link-learn_more {
+    display: inline-block;
+    margin: 10px 60px;
+  }
+}
 @media (min-width: 768px) {
   .header__nav-logo {
     padding: 32px;
@@ -120,10 +177,6 @@
 }
 
 @media (min-width: 992px) {
-  .header__nav-social {
-    display: flex;
-  }
-
   .header__nav-logo {
     background-color: rgba(8, 5, 5, 0.5);
   }
@@ -135,13 +188,57 @@
 
   .header__menu-name {
     color: var(--text-color-white);
-    font-weight: 500;
+    font-weight: 550;
     font-family: "Rubik", sans-serif;
     font-size: 14px;
-    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .header__nav-social {
+    display: flex;
+    align-items: center;
   }
 
   .header__socials-icons {
     display: flex;
+    margin-right: 20px;
+    align-items: center;
+  }
+
+  .social_links > img {
+    margin-right: 20px;
+  }
+
+  /* text */
+
+  .header__inner-container {
+    margin-left: 450px;
+  }
+  .header__text-test-wine {
+    font-size: 28px;
+  }
+  .header__text-content {
+    font-size: 84px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header__nav-logo {
+    padding: 30px 55px;
+  }
+
+  .header__inner-container {
+    margin-left: 550px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header__nav-logo {
+    padding: 30px 120px;
+  }
+
+  .header__inner-container {
+    margin-left: 620px;
+    margin-top: 30px;
   }
 }

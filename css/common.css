@@ -1,20 +1,21 @@
 /*Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik&display=swap");
 
 :root {
-    ---main-color: #261e1c;
-    --dark: #1b1613;
-    --text-color-white: #fff;
-    --text-color-orange: #c8693a;
+  ---main-color: #261e1c;
+  --dark: #1b1613;
+  --text-color-white: #fff;
+  --text-color-orange: #c8693a;
 }
 
 * {
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
