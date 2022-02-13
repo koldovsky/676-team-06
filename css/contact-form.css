@@ -290,7 +290,7 @@
         font-size: 15px;
         line-height: 18px;
         border-radius: 2px;
-        padding: 16px 25px;
+        padding: 16px 35px;
         text-rendering: auto;
         letter-spacing: normal;
         word-spacing: normal;
@@ -299,8 +299,6 @@
         text-shadow: none;
         text-align: start;
         -webkit-rtl-ordering: logical;
-        margin: 0em;
-        width: 83.5%;
     }
     .submit {
         font-weight: 700;
