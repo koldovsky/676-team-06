@@ -87,6 +87,8 @@
   font-size: 16.5px;
   font-family: "Rubik";
   border-radius: 2px;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .header__link-learn_more {
@@ -97,6 +99,7 @@
   font-size: 16.5px;
   font-family: "Rubik";
   border-radius: 2px;
+  display: inline-block;
 }
 
 .header__link-shop-now:hover {
@@ -142,6 +145,12 @@
   width: 100%;
 }
 /* media */
+
+@media (min-width: 320px) {
+  .header__link-learn_more {
+    padding: 15px 24px;
+  }
+}
 
 @media (max-width: 344px) {
   .header__link-gruop {
@@ -240,5 +249,30 @@
   .header__inner-container {
     margin-left: 620px;
     margin-top: 30px;
+  }
+}
+
+@media (min-width: 1560px) {
+  .header__nav-logo {
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+  .header__intro-container {
+    padding-left: 60px;
+  }
+}
+
+@media (min-width: 1810px) {
+  .header__nav-logo {
+    padding: 30px 350px;
+  }
+
+  .header__inner-container {
+    margin-left: 800px;
+    margin-top: 30px;
+  }
+
+  .header__link-gruop {
+    margin-top: 40px;
   }
 }
