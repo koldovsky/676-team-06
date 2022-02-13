@@ -38,14 +38,14 @@
 /* text */
 
 .header__text-test-wine {
-  color: var(--text-color-orange);
+  color: var(--button-color);
   font-family: "Great Vibes";
   font-size: 14px;
   font-weight: 400;
 }
 
 .header__text-content {
-  color: var(--text-color-white);
+  color: var(--text-color);
   font-family: "Prata";
   font-size: 58px;
   font-weight: 400;
@@ -54,7 +54,7 @@
 }
 
 .header__text-info {
-  color: var(--text-color-white);
+  color: var(--text-color);
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -78,10 +78,10 @@
 }
 
 .header__link-shop-now {
-  border: 3px solid #c8693a;
-  background-color: #c8693a;
+  border: 3px solid var(--button-color);
+  background-color: var(--button-color);
   padding: 15px 30px;
-  color: var(--text-color-white);
+  color: var(--text-color);
   margin-right: 10px;
   font-weight: 700;
   font-size: 16.5px;
@@ -92,8 +92,8 @@
 }
 
 .header__link-learn_more {
-  border: 3px solid #fff;
-  color: var(--text-color-white);
+  border: 3px solid var(--text-color);
+  color: var(--text-color);
   padding: 15px 30px;
   font-weight: 700;
   font-size: 16.5px;
@@ -103,14 +103,14 @@
 }
 
 .header__link-shop-now:hover {
-  background-color: #9b5837;
-  border: 3px solid #9b5837;
+  background-color: var(--button-color);
+  border: 3px solid var(--button-color);
   transition: background-color 0.7s linear, color 0.7s linear,
     border 0.7s linear;
 }
 
 .header__link-learn_more:hover {
-  background-color: #fff;
+  background-color: var(--text-color);
   color: var(--dark);
   transition: background-color 0.5s linear, color 0.5s linear,
     border 0.5s linear;
@@ -123,7 +123,7 @@
 }
 
 .header__menu-name:hover {
-  color: #c8693a;
+  color: var(--button-color);
   transition: color 0.2s linear;
 }
 
@@ -132,7 +132,7 @@
   width: 100%;
   position: absolute;
   height: 2px;
-  background-color: #c8693a;
+  background-color: var(--button-color);
   bottom: -5px;
   left: 0;
   z-index: 1;
@@ -144,6 +144,17 @@
   opacity: 1;
   width: 100%;
 }
+
+/* icons */
+
+.social_links {
+  transition: transform 0.2s linear;
+}
+
+.social_links:hover {
+  transform: translateY(-5px);
+}
+
 /* media */
 
 @media (min-width: 320px) {
@@ -196,7 +207,7 @@
   }
 
   .header__menu-name {
-    color: var(--text-color-white);
+    color: var(--text-color);
     font-weight: 550;
     font-family: "Rubik", sans-serif;
     font-size: 14px;
