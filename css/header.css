@@ -101,6 +101,21 @@
 
 /* media */
 
+@media (max-width: 344px) {
+  .header__link-gruop {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header__link-shop-now {
+    display: inline-block;
+    margin: 10px 60px;
+  }
+  .header__link-learn_more {
+    display: inline-block;
+    margin: 10px 60px;
+  }
+}
 @media (min-width: 768px) {
   .header__nav-logo {
     padding: 32px;
