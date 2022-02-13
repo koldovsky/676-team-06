@@ -261,3 +261,18 @@
     padding-left: 60px;
   }
 }
+
+@media (min-width: 1810px) {
+  .header__nav-logo {
+    padding: 30px 350px;
+  }
+
+  .header__inner-container {
+    margin-left: 800px;
+    margin-top: 30px;
+  }
+
+  .header__link-gruop {
+    margin-top: 40px;
+  }
+}
