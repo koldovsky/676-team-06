@@ -80,21 +80,23 @@
 .header__link-shop-now {
   border: 3px solid #c8693a;
   background-color: #c8693a;
-  padding: 15px 25px;
+  padding: 18px 26px;
   color: var(--text-color-white);
   margin-right: 10px;
   font-weight: 700;
   font-size: 16.5px;
   font-family: "Rubik";
+  border-radius: 2px;
 }
 
 .header__link-learn_more {
   border: 3px solid #fff;
   color: var(--text-color-white);
-  padding: 15px 25px;
+  padding: 18px 26px;
   font-weight: 700;
   font-size: 16.5px;
   font-family: "Rubik";
+  border-radius: 2px;
 }
 
 @media (min-width: 768px) {
