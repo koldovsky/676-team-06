@@ -189,3 +189,14 @@
     margin-left: 550px;
   }
 }
+
+@media (min-width: 1440px) {
+  .header__nav-logo {
+    padding: 30px 120px;
+  }
+
+  .header__inner-container {
+    margin-left: 620px;
+    margin-top: 30px;
+  }
+}
