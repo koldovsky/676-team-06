@@ -243,13 +243,13 @@
     padding-top: 100px;
    }
 }
-@media (min-width: 1560px){
+@media (min-width: 1200px){
     #contact-form {
         padding: 110px 0px 15px;
     }
     .contact-form_container {
-        margin: 0 191.5px;
-        padding: 0 15px;
+        margin: 0 71.5px;
+        padding: 60px 15px;
         max-width: 1200px;
         width: 100%;
     }
