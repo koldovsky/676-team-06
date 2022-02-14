@@ -25,8 +25,6 @@ ul {
 .footer__list-item a:hover {
     font-weight: 500;
     color: #c8693a;
-    transition: background-color 0.5s linear, color 0.5s linear,
-    border 0.5s linear;
 }
 .horizontal-line__component {
     background-color: #c8693a;
@@ -197,8 +195,6 @@ ul {
     }
     .footer__list-item a:hover {
         font-weight: 500;
-        transition: background-color 0.5s linear, color 0.5s linear,
-    border 0.5s linear;
     }
     ul.footer__insta-list{
         display: grid;
