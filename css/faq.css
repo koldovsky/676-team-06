@@ -24,7 +24,7 @@
     font-family: 'Great Vibes', coursive;
     font-size: 14px;
     color: rgb(200, 105, 58);
-  padding: 10px;
+    padding: 10px;
 }
 .header-text-have-a-question{
     font-family: 'Prata', serif;
@@ -49,9 +49,9 @@
    
 }
 .fast-free-shipping__subtext {
-font-family: 'Rubik' , sans-serif;
-font-size: 16px;
-color: rgb(137, 128, 130)
+    font-family: 'Rubik' , sans-serif;
+    font-size: 16px;
+    color: rgb(137, 128, 130)
 }
 .secure-payments {
     font-family: 'Prata' , serif;
@@ -61,8 +61,8 @@ color: rgb(137, 128, 130)
 }
 .secure-payments__subtext {
     font-family: 'Rubik' , sans-serif;
-font-size: 16px;
-color: rgb(137, 128, 130)
+    font-size: 16px;
+    color: rgb(137, 128, 130)
 }
 .eco-friendly {
     font-family: 'Prata' , serif;
@@ -95,5 +95,5 @@ color: rgb(137, 128, 130)
 }
 .bottleofwine{
     width: 300px;
-margin-left: 200px;
+    margin-left: 200px;
 }
