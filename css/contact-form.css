@@ -220,7 +220,6 @@
       }
       .contact-form_container--email_box{
           min-width: 272px;
-          width: fit-content;
       }
       #contact-form_divider #contact-form_divider--component{
         width: 100%;

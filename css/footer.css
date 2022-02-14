@@ -151,7 +151,7 @@ ul {
     }
 
     .footer__list-item__image{
-        padding-right: 0 7.5px;
+        padding-right: 7.5px;
         margin-top: 15px;
     }
     ul.footer__insta-list{
@@ -192,7 +192,6 @@ ul {
         font-size: 14px;
         line-height: 22px;
         margin: -10px -5px;
-        font-weight: bolder;
     }
     .footer__list-item a:hover {
         font-weight: 500;
