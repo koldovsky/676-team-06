@@ -19,6 +19,10 @@
   height: 44px;
 }
 
+.header__nav-menu {
+  padding-top: 15px;
+}
+
 .header__nav-list-item {
   list-style-type: none;
 }
@@ -89,6 +93,7 @@
   border-radius: 2px;
   display: inline-block;
   margin-bottom: 10px;
+  line-height: 1.2;
 }
 
 .header__link-learn_more {
@@ -100,13 +105,15 @@
   font-family: "Rubik";
   border-radius: 2px;
   display: inline-block;
+  line-height: 1.2;
 }
 
 .header__link-shop-now:hover {
-  background-color: var(--button-color);
-  border: 3px solid var(--button-color);
-  transition: background-color 0.7s linear, color 0.7s linear,
-    border 0.7s linear;
+  background-color: #a35832;
+  border: 3px solid #a35832;
+  color: var(--text-color);
+  transition: background-color 0.5s linear, color 0.5s linear,
+    border 0.5s linear;
 }
 
 .header__link-learn_more:hover {
