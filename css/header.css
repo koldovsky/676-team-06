@@ -152,8 +152,18 @@
   width: 100%;
 }
 
-/* icons */
+/* socials icons */
+.social-link-youtube {
+  height: 30px;
+}
 
+.social-link-facebook {
+  height: 32px;
+}
+
+.social-link-instagram {
+  height: 24px;
+}
 .social_links {
   transition: transform 0.2s linear;
 }
