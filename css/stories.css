@@ -38,7 +38,7 @@
     text-align: center;
     justify-content: center;
 }
-.--box__content{
+#--box__content-carousel{
     margin-top: 20px;
 
 }
@@ -48,7 +48,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
 }
-.--box__content p{
+.carousel-item {
     font-size: 1rem;
     color: rgb(137,128,130);
 }
