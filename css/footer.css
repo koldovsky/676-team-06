@@ -10,6 +10,10 @@
 }
 ul {
     list-style-type: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
 }
 .footer__lists-title {
     color: #fff;
@@ -84,7 +88,7 @@ ul {
         width: 30px;
         height: 30px;
         background: none;
-        border: 1px var(--button-color) solid;
+        /* border: 1px var(--button-color) solid; */
         color: var(--button-color);
         margin: 0 7.5px 15px;
     }
@@ -233,6 +237,9 @@ ul {
         margin: 0 ;
         padding: 0 15px;
         text-align: left;
+    }
+    ul.footer__list{
+        padding-left: 0%;
     }
     .footer__lists-title {
         font-weight: 400;
