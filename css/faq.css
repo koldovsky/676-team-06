@@ -1,15 +1,36 @@
 .information {
-    background-color:#261c1c;
+    background-color: #261e1c;
 }
+.header-faq {
+    margin-left: 50px;
+}
+.faq {
+    display: flex;
+    margin-left: 50px;
+}
+
+.logo-have-questions {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.someinformation {
+    display: flex;
+    flex-direction: row;
+}
+
 .header-text-faq{
     font-family: 'Great Vibes', coursive;
     font-size: 14px;
     color: rgb(200, 105, 58);
+  padding: 10px;
 }
 .header-text-have-a-question{
     font-family: 'Prata', serif;
     font-size: 34px;
     color: white; 
+    padding: 10px;
 }
 .questions {
     font-family: 'Prata' , serif;
@@ -62,4 +83,17 @@ color: rgb(137, 128, 130)
     font-family: 'Rubik' , sans-serif;
     font-size: 16px;
     color: rgb(137, 128, 130)
+}
+.info-logo {
+    width: 50px;
+    background-color: #342e2e;
+    border-color:#342e2e;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 50%;
+
+}
+.bottleofwine{
+    width: 300px;
+    margin-left: 400px;
 }
