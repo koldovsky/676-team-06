@@ -1,0 +1,24 @@
+.stories {
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+.stories__container {
+}
+.stories__container--box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.subtext {
+    font-family: 'Great Vibes', sans-serif;
+    color: var(--button-color);
+}
+.title {
+}
+.stories__stick {
+}
+.stories__stick-img {
+}
+.--box__content {
+}
