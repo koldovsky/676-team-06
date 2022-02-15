@@ -1,0 +1,49 @@
+.culture {
+    background-image: url(../img/culture-background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 100px 0;
+    color: var(--text-color);
+}
+.culture__container__box {
+    padding: 0 15px;
+    display: grid;
+    text-align: left;
+}
+.culture__container__box__subtext{
+    font-family: 'Great Vibes';
+    font-size: 14px;
+    color: var(--button-color);
+}
+.culture__container__box__title{
+    font-family: 'Prata';
+    font-size: 58px;
+    margin-top: 20px;
+}
+.culture__stick {
+    margin-top: 35px;
+    padding-top: 2.735042735042735%;
+    min-height: 32px;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+.culture__stick img {
+    object-fit: contain;
+    width: 200px;
+}
+.culture__container__box__content {
+    margin-top: 20px;
+    font-family: 'Rubik';
+    padding: 0 10px;
+}
+.video__start__play {
+    justify-content: flex-start;
+    margin-top: 35px;
+    font-family: 'Rubik';
+    font-weight: 600;
+}
