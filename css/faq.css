@@ -1,6 +1,11 @@
 .faq {
     background-color: #261e1c;
 }
+.horizontal-line-faq{
+    background-color: #c8693a;
+    height: 2px;
+    min-width: 0.1px;
+}
 .logo-have-questions {
     width: 200px;
 }
@@ -80,6 +85,31 @@
     border-radius: 50%;
 }
 
+/* Faq media */
+@media (min-width: 350px){
+.header-text-faq{
+    padding: 10px 15px;
+}
+.header-text-have-a-question{
+    padding: 0 20px;
+}
+.logo-have-questions{
+    padding: 20px;
+}
+.questions{
+    padding: 20px;
+}
+.answer{
+    padding: 0 20px;
+}
+.someinformation{
+    padding: 15px;
+}
+.horizontal-line-faq{
+    background-color: #c8693a;
+    width: 40.9375px;
+}
+}
 @media (min-width: 768px){
     .questionsandimg{
         display: grid;
