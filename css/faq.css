@@ -1,46 +1,29 @@
-.information {
+.faq {
     background-color: #261e1c;
-}
-.header-faq {
-    margin-left: 50px;
 }
 .logo-have-questions {
     width: 200px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
 }
-.faq {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 40px;
-    }
+.questionsandimg {
+    max-width: 1629px;
+}
 .bottleofwine{
-       width:350px;
-    }
-
- .someinformation {
-        display: flex;
-        flex-direction: column;
-        margin-left: 40px;
-        margin-right: 40px;
+       width: 350px;
     }
 .header-text-faq{
     font-family: 'Great Vibes', coursive;
     font-size: 14px;
     color: rgb(200, 105, 58);
-    padding: 10px;
 }
 .header-text-have-a-question{
     font-family: 'Prata', serif;
     font-size: 34px;
     color:var(--text-color);
-    padding: 10px;
 }
 .questions {
     font-family: 'Prata' , serif;
     font-size: 22px;
-    color: (--text-color);
+    color:var(--text-color);
 }
 .answer {
     font-family: 'Rubik' , sans-serif;
@@ -50,7 +33,7 @@
 .fast-free-shipping {
     font-family: 'Prata' , serif;
     font-size: 22px;
-    color: (--text-color);
+    color: var(--text-color);
 }
 .fast-free-shipping__subtext {
     font-family: 'Rubik' , sans-serif;
@@ -60,7 +43,7 @@
 .secure-payments {
     font-family: 'Prata' , serif;
     font-size: 22px;
-    color: (--text-color);
+    color: var(--text-color);
 
 }
 .secure-payments__subtext {
@@ -71,7 +54,7 @@
 .eco-friendly {
     font-family: 'Prata' , serif;
     font-size: 22px;
-    color: (--text-color);
+    color: var(--text-color);
 }
 .eco-friendly__subtext {
     font-family: 'Rubik' , sans-serif;
@@ -81,7 +64,7 @@
 .discount-system {
     font-family: 'Prata' , serif;
     font-size: 22px;
-    color: (--text-color);
+    color: var(--text-color);
 }
 .discount-system__subtext {
     font-family: 'Rubik' , sans-serif;
@@ -95,4 +78,22 @@
     border-style: solid;
     border-width: 10px;
     border-radius: 50%;
+}
+
+@media (min-width: 768px){
+    .questionsandimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 768px){
+    .someinformation{
+     display: grid;
+     grid-template-columns :1fr 1fr;
+    }
+}
+@media (min-width: 992px){
+    .someinformation{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
