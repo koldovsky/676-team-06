@@ -77,9 +77,6 @@
 .carousel-inner{
     padding: 0 25px;
 }
-.carousel-control-next, .carousel-control-prev {
-    width: -5%;
-}
 @media (min-width:768px) {
     .stories__container{
         padding: 0 32px;
@@ -115,7 +112,6 @@
     }
     .stories .stories__container{ 
         margin: 0 auto;
-        padding: 0 auto;
     }
     .carousel-item{
         padding: 40px 59.3px 59.3px;
