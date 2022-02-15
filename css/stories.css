@@ -62,12 +62,62 @@
 .carousel-item {
     font-size: 16px;
     color: rgb(137,128,130);
-    padding: 0 25px;
+    padding: 10px 30px 30px;
 }
+ .carousel-item{
+        padding: 20px 50px 50px;
+    }
 .carousel-indicators [data-bs-target] {
     border-radius: 50%;
     background-color: var(--button-color);
     border: 20px;
     width: 10px;
     height: 10px;
+}
+.carousel-inner{
+    padding: 0 25px;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: -5%;
+}
+@media (min-width:768px) {
+    .stories__container{
+        padding: 0 32px;
+    }
+    .stories__container--box .stories__container--box__subtext {
+        font-size: 21px;
+    }
+    .stories__container--box__title{
+        font-size: 41px;
+    }
+    .stories__container--box p{
+        font-size: 18px;
+        padding: 0 35px;
+    }
+    .carousel-item{
+        padding: 20px 50px 50px;
+    }
+    .carousel-inner{
+        padding: 0 55px;
+    }
+}
+@media (min-width: 992px) {
+    .carousel-item{
+        padding: 40px 5vw 5vw;
+    }
+    .carousel-inner{
+        padding: 0 55px;
+    }
+}
+@media (min-width: 1160px) {
+    .stories {
+        padding: 50px 115px;
+    }
+    .stories .stories__container{ 
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .carousel-item{
+        padding: 40px 59.3px 59.3px;
+    }
 }
