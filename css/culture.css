@@ -6,11 +6,12 @@
     min-height: 100vh;
     padding: 100px 0;
     color: var(--text-color);
+    text-align: left;
 }
 .culture__container__box {
     padding: 0 15px;
     display: grid;
-    text-align: left;
+    max-width: 70%;
 }
 .culture__container__box__subtext{
     font-family: 'Great Vibes';
@@ -21,15 +22,14 @@
     font-family: 'Prata';
     font-size: 58px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .culture__stick {
-    margin-top: 35px;
     padding-top: 2.735042735042735%;
     min-height: 32px;
     max-width: 100%;
     height: 100%;
     display: flex;
-    text-align: left;
     justify-content: left;
 }
 .culture__stick img {
@@ -39,11 +39,73 @@
 .culture__container__box__content {
     margin-top: 20px;
     font-family: 'Rubik';
-    padding: 0 10px;
+    padding-right: 15px;
+    height: 100%;
 }
 .video__start__play {
     justify-content: flex-start;
     margin-top: 35px;
     font-family: 'Rubik';
     font-weight: 600;
+    background: none;
+    color: var(--text-color);
+    text-align: left;
+    border: none;
+}
+.culture__container__box button:hover{
+    text-decoration: underline;
+}
+.culture__container__navigation {
+    padding: 0 15px;
+    display: grid;
+    text-align: left;
+}
+.video__start__play img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--button-color);
+    border-radius: 50%;
+    background-color: var(--button-color);
+}
+.culture__container__navigation__content{
+    font-family: 'Rubik';
+    font-weight: 600;
+    margin-top: 20px;
+}
+@media (min-width: 768px) {
+    .culture__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 32px;
+    }
+    .culture__container__navigation{
+        justify-items: center;
+        justify-content: left;
+    }
+    .video__start__play{
+        padding-bottom: 0;
+    }
+}
+@media (min-width: 992px) {
+    .culture {
+        padding: 165px 0;
+    }
+    .culture__container__box__subtext{
+        font-size: 28px;
+    }
+    .culture__container__box__title{
+        font-size: 84px;
+    }
+    .culture__container__navigation{
+        padding-left: 0;
+    }
+    .video__start__play img{
+        height: 70px;
+        width: 70px;
+        margin-top: 70px;
+    }
+    .culture__container__navigation__content{
+        font-size: 18px;
+        font-weight: 700;
+    }
 }
