@@ -1,0 +1,98 @@
+.shop {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    padding: 100px 0 50px;
+}
+.shop__container {
+    padding: 0 24px;
+}
+.shop__container__box__article{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    text-align: center;
+    justify-content: center;
+}
+.shop__container__box__article__subtext{
+    font-size: 21px;
+    font-family: 'Great Vibes';
+    font-weight: 400;
+    color: var(--button-color);
+}
+.shop__container__box__article__title{
+    font-size: 41px;
+    font-family: 'Prata';
+    font-weight: 400;
+    margin-top: 20px;
+}
+.shop__stick {
+    margin-top: 25px;
+    padding-top: 2.735042735042735%;
+    min-height: 32px;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.shop__stick img {
+    object-fit: contain;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+.shop__container__box__article__content{
+    margin-top: 20px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+}
+.shop__container__box__products-list {
+    padding: 0 15px;
+    max-width: 100%;
+    text-align: center;
+}
+.__product_name {
+    margin-top: 8px;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-weight: 500;
+}
+.__product_price{
+    margin-top: 16px;
+    font-family: 'Rubik';
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.__product__cart {
+    margin-top: 24px;
+}
+.add_to_cart {
+    text-align: center;
+    border: 3px solid var(--button-color);
+    background-color: var(--button-color);
+    padding: 15px 30px;
+    color: var(--text-color);
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Rubik";
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.add_to_cart:hover {
+    background-color: #a35832;
+    border: 3px solid #a35832;
+    color: var(--text-color);
+    transition: background-color 0.5s linear, color 0.5s linear,
+      border 0.5s linear;
+}
+.shop__container__box__product {
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    
+}
