@@ -70,17 +70,18 @@
   font-weight: 700;
 }
 
- #carusel {
-    margin: auto;
-    width: 50%;
-  
-  }
+#carusel {
+  margin: auto;
+  width: 50%;
+}
 
-  .carousel-caption {
-    position: static;
-  }
+.carousel-caption {
+  position: static;
+}
+
 /* media */
-
+@media (max-width: 500px) {
+}
 @media (min-width: 768px) {
   .best__deals-text {
     font-size: 21px;
@@ -90,70 +91,11 @@
   }
 }
 
-
 @media (min-width: 992px) {
   .best__deals-text {
     font-size: 28px;
   }
   .best__deals-content {
     font-size: 48px;
-  }
-}
-/*
-@media (min-width: 768px) {
-  #carusel {
-    margin-left: 230px;
-  }
-
-  .carousel-caption {
-    position: static;
-  }
-}
-@media (min-width: 992px) {
-  #carusel {
-    margin-left: 300px;
-  }
-
-  .carousel-caption {
-    position: static;
-  }
-}
-@media (min-width: 1280px) {
-  #carusel {
-    margin-left: 350px;
-  }
-
-  .carousel-caption {
-    position: static;
-  }
-}
-@media (min-width: 1440px) {
-  #carusel {
-    align-content: center;
-  }
-
-  .carousel-caption {
-    position: static;
-  }
-}
-
-@media (min-width: 1560px) {
-  #carusel {
-    margin-left: 430px;
-  }
-
-  .carousel-caption {
-    position: static;
-  }
-}
-
-@media (min-width: 1810px) {
-  #carusel {
-    margin: auto;
-    width: 50%;
-  }
-
-  .carousel-caption {
-    position: static;
   }
 }
