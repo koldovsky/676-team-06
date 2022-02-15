@@ -1,7 +1,8 @@
 .stories {
-    background-color: var(--main-color);
+    background: var(--main-color) url(../img/stories_background_img.png) center / contain no-repeat;;
     color: var(--text-color);
     padding: 50px 0;
+    
 }
 .stories__container {
     padding: 0 15px;
@@ -34,7 +35,7 @@
 }
 .stories__stick-img {
     object-fit: contain;
-    width: 50%;
+    width: 200px;
     text-align: center;
     justify-content: center;
 }
@@ -61,7 +62,7 @@
 .carousel-item {
     font-size: 16px;
     color: rgb(137,128,130);
-    /* width: 75%; */
+    padding: 0 25px;
 }
 .carousel-indicators [data-bs-target] {
     border-radius: 50%;
