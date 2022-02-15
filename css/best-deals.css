@@ -1,5 +1,6 @@
 .best__deals {
   background-color: var(--dark);
+  padding: 90px 0;
 }
 
 /* text */
@@ -45,6 +46,30 @@
   justify-content: center;
 }
 
+/* carusel */
+
+.carousel-item > img {
+  margin: 0 auto;
+}
+
+.buy-wine-name {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  list-style-type: none;
+  color: var(--text-color);
+}
+.buy-wine-name:hover {
+  color: var(--text-color);
+}
+
+.price {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  list-style: none;
+  color: var(--text-color);
+  font-weight: 700;
+}
+
 /* media */
 
 @media (min-width: 768px) {
@@ -56,11 +81,67 @@
   }
 }
 
+@media (min-width: 768px) {
+  #carusel {
+    margin-left: 230px;
+  }
+
+  .carousel-caption {
+    position: static;
+  }
+}
 @media (min-width: 992px) {
   .best__deals-text {
     font-size: 28px;
   }
   .best__deals-content {
     font-size: 48px;
+  }
+}
+@media (min-width: 992px) {
+  #carusel {
+    margin-left: 300px;
+  }
+
+  .carousel-caption {
+    position: static;
+  }
+}
+@media (min-width: 1280px) {
+  #carusel {
+    margin-left: 350px;
+  }
+
+  .carousel-caption {
+    position: static;
+  }
+}
+@media (min-width: 1440px) {
+  #carusel {
+    margin-left: 390px;
+  }
+
+  .carousel-caption {
+    position: static;
+  }
+}
+
+@media (min-width: 1560px) {
+  #carusel {
+    margin-left: 430px;
+  }
+
+  .carousel-caption {
+    position: static;
+  }
+}
+
+@media (min-width: 1810px) {
+  #carusel {
+    margin-left: 480px;
+  }
+
+  .carousel-caption {
+    position: static;
   }
 }
