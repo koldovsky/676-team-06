@@ -40,7 +40,6 @@
 }
 #--box__content-carousel{
     margin-top: 20px;
-
 }
 .stories__container p{
     margin-top: 20px;
@@ -48,7 +47,26 @@
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
 }
+
+#--box__content-carousel .carousel-indicators{
+    margin-bottom: -1rem;
+}
+.carousel-control-next, .carousel-control-prev {
+    color: var(--button-color);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 .carousel-item {
-    font-size: 1rem;
+    font-size: 16px;
     color: rgb(137,128,130);
+    /* width: 75%; */
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    background-color: var(--button-color);
+    border: 20px;
+    width: 10px;
+    height: 10px;
 }
