@@ -70,18 +70,12 @@
   font-weight: 700;
 }
 
-#carusel {
-  margin: auto;
-  width: 50%;
-}
-
 .carousel-caption {
   position: static;
 }
 
 /* media */
-@media (max-width: 500px) {
-}
+
 @media (min-width: 768px) {
   .best__deals-text {
     font-size: 21px;
@@ -97,5 +91,12 @@
   }
   .best__deals-content {
     font-size: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #carusel {
+    margin: auto;
+    width: 50%;
   }
 }
