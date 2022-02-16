@@ -85,3 +85,64 @@
     margin-top: 50px;
     padding: 0 15px
 }
+@media (min-width: 768px) {
+    .awards__container {
+        padding: 0 32px;
+    }
+    .awards__container__header__title{
+        font-size: 21px;
+    }
+    .awards__container__header__text{
+        font-size: 41px;
+    }
+    .awards__container__content__box{
+        padding: 0;
+    }
+    .__content__box__lists__item{
+        display: flex;
+        flex-direction: column;
+    }
+    .__content__box__lists__item__list{
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        text-align: center;
+    }
+    .__content__box__lists__item:not(:first-child) {
+        margin-top: 0;
+        padding: 0 15px
+    }
+    .__content__box__lists__item__list__logo{
+        padding: 0 15px;
+        margin: auto; 
+        width: 100%;
+        max-width: 200px;
+    }
+    .__content__box__lists__item__list__company{
+        padding: 0 15px;
+        margin: auto; 
+        max-width: 200px;
+    }
+    .__content__box__lists__item__list__year{
+        padding: 0 15px;
+        margin: auto;
+        width: 170px;
+        text-align: left;
+    }
+    .__content__box__lists__item__list__article{
+        padding: 0 15px;
+        margin: auto;
+        text-align: left;
+        max-width: 50%;
+    }
+}
+@media (min-width: 992px) {
+    .awards__container {
+        padding: 0 40px;
+    }
+    .awards__container__header__title{
+        font-size: 28px;
+    }
+    .awards__container__header__text{
+        font-size: 48px;
+    }
