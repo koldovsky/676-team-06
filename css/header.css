@@ -279,6 +279,44 @@
   }
 }
 
+/* burger menu items */
+
+@media (max-width: 991px) {
+  .header__nav-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__logo {
+    z-index: 1;
+  }
+  .header__nav-menu {
+    margin-top: 60px;
+  }
+  .header__nav-list-item {
+    line-height: 2.5;
+    text-align: center;
+  }
+  .header__menu-name {
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+  .header__socials-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .social_links {
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    margin-bottom: 15px;
+  }
+}
+
+/* burger menu items end */
+
 @media (min-width: 992px) {
   .header__nav-logo {
     background-color: rgba(8, 5, 5, 0.5);
