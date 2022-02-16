@@ -2,7 +2,7 @@
   background-color: var(--dark);
 }
 
-main {
+.main__container {
   background-color: var(--main-color);
   padding: 90px 24px;
 }
