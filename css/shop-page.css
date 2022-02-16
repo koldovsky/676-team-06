@@ -52,3 +52,22 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+@media (min-width: 1560px) {
+  .main__container {
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+}
+
+@media (min-width: 1810px) {
+  .main__container {
+    padding: 80px 350px;
+  }
+  .shop__title {
+    font-size: 32px;
+  }
+  .text_products {
+    font-size: 32px;
+  }
+}
