@@ -1,0 +1,54 @@
+.header__nav-logo {
+  background-color: var(--dark);
+}
+
+main {
+  background-color: var(--main-color);
+  padding: 90px 24px;
+}
+
+/* text */
+
+.shop__title {
+  font-size: 28px;
+  font-family: "Prata", serif;
+  color: var(--text-color);
+}
+
+.shop__info-wine {
+  margin-bottom: 50px;
+}
+
+.text_products {
+  font-size: 28px;
+  font-family: "Prata", serif;
+  color: var(--text-color);
+}
+
+.shop__info-products {
+  margin-bottom: 30px;
+}
+
+/* grid and img */
+
+.shop__wrapper-wine {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.shop__buy-wine-name {
+  margin: 15px 0;
+}
+
+@media (min-width: 768px) {
+  .shop__wrapper-wine {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .shop__wrapper-wine {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
