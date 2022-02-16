@@ -126,6 +126,9 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
+    .discount__container__box__content{
+        height: 100%;
+    }
     .discount__container__box__content:nth-child(2) {
         margin-top: 0;
         padding: 0 15px;

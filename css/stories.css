@@ -39,7 +39,7 @@
     text-align: center;
     justify-content: center;
 }
-#--box__content-carousel{
+#box__content-carousel{
     margin-top: 20px;
 }
 .stories__container p{
@@ -49,7 +49,7 @@
     font-size: 18px;
 }
 
-#--box__content-carousel .carousel-indicators{
+#box__content-carousel .carousel-indicators{
     margin-bottom: -1rem;
 }
 .carousel-control-next, .carousel-control-prev {
