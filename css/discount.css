@@ -117,3 +117,17 @@
     border-style: solid;
     border-radius: 2px;
 }
+@media (min-width: 768px) {
+    .discount__container{
+        padding: 0 32px;
+    }
+    .discount__container__box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .discount__container__box__content:nth-child(2) {
+        margin-top: 0;
+        padding: 0 15px;
+    }
+}
