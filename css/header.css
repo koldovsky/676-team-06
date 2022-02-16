@@ -177,7 +177,6 @@
 @media (max-width: 991px) {
   .burger__menu {
     position: relative;
-    display: block;
     width: 24px;
     height: 16px;
     margin: 12px 8px;
@@ -222,6 +221,20 @@
   }
   .header__nav-social.active {
     top: 0;
+  }
+
+  .burger__line:first-child.active {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+
+  .burger__line:nth-child(2).active {
+    transform: scale(0);
+  }
+
+  .burger__line:last-child.active {
+    bottom: 40%;
+    transform: rotate(45deg);
   }
 }
 
