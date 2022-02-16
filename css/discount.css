@@ -8,9 +8,10 @@
 }
 .discount__container__box{
     text-align: left;
+    display: flex;
     justify-content: center;
 }
-.discount__container__box__red{
+.discount__container__box__red__content{
     padding: 0 15px;
     background-image: url(../img/discount__container__box__red.jpg);
     background-size: cover;
@@ -60,7 +61,7 @@
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
 }
-.discount__container__box__white{
+.discount__container__box__white__content{
     margin-top: 50px;
     padding: 0 15px;
     background-image: url(../img/discount__container__box__white.webp);
@@ -70,7 +71,7 @@
     background-position-x: 14.46%;
     background-position-y: 51.16%;
 }
-.__container__box__whie__content{
+.__container__box__white__content{
     padding: 33px;
 }
 .__content__box__white__title{
