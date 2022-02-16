@@ -16,7 +16,6 @@
     padding: 0 15px;
     background-image: url(../img/discount__container__box__red.jpg);
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position-x: 21.99%;
     background-position-y: 49.72%;
@@ -70,7 +69,6 @@
     padding: 0 15px;
     background-image: url(../img/discount__container__box__white.webp);
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position-x: 14.46%;
     background-position-y: 51.16%;
