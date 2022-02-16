@@ -1,0 +1,115 @@
+.discount {
+    padding: 90px 0 60px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+.discount__container {
+    padding: 0 24px;   
+}
+.discount__container__box{
+    text-align: left;
+    justify-content: center;
+}
+.discount__container__box__red{
+    padding: 0 15px;
+    background-image: url(../img/discount__container__box__red.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 21.99%;
+    background-position-y: 49.72%;
+}
+.__container__box__red__content{
+    padding: 33px;
+}
+.__content__box__red__title{
+    margin-top: 25px;
+    font-family: 'Prata';
+    font-size: 28px;
+    padding-top: 2rem;
+}
+.discount__horizontal-line{
+    padding: 15px 0;
+    justify-content: left;
+}
+
+.discount__horizontal-line__component {
+    background-color: var(--button-color);
+    height: 2px;
+    min-width: 2%;
+    width: 40.9375px;
+}
+.__content__box__text{
+    font-family: 'Rubik';
+}
+.__box__shop-wine{
+    font-family: 'Rubik';
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-color);
+    background-color: var(--button-color);
+    text-align: center;
+    margin: 10px;
+    margin-top: 45px;
+    padding: 16px 25px;
+    border: var(--button-color) 3px;
+    border-style: solid;
+    border-radius: 2px;
+}
+.__box__shop-wine:hover {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+.discount__container__box__white{
+    margin-top: 50px;
+    padding: 0 15px;
+    background-image: url(../img/discount__container__box__white.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 14.46%;
+    background-position-y: 51.16%;
+}
+.__container__box__whie__content{
+    padding: 33px;
+}
+.__content__box__white__title{
+    margin-top: 25px;
+    font-family: 'Prata';
+    font-size: 28px;
+    padding-top: 2rem;
+}
+.discount__container__bonus{
+    margin-top: 50px;
+    pad: 0 15px;
+    background: url(../img/discount__container__bonus__background.webp) var(--button-color);
+    background-size: contain, auto;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+.discount__container__bonus__content{
+    padding: 39px 33px;
+}
+.discount__container__bonus__content__title{
+    font-family: 'Prata';
+    font-size: 34px;
+}
+.discount__container__bonus__content__text{
+    font-family: 'Rubik';
+    font-size: 18px;
+}
+.__bonus__content__join{
+    font-family: 'Rubik';
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-color);
+    background-color: var(--button-color);
+    text-align: center;
+    margin: 10px;
+    margin-top: 45px;
+    padding: 16px 25px;
+    border: var(--text-color) 3px;
+    border-style: solid;
+    border-radius: 2px;
+}
