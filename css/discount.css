@@ -9,9 +9,10 @@
 .discount__container__box{
     text-align: left;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
-.discount__container__box__red__content{
+.discount__container__box__content:nth-child(1){
     padding: 0 15px;
     background-image: url(../img/discount__container__box__red.jpg);
     background-size: cover;
@@ -20,10 +21,12 @@
     background-position-x: 21.99%;
     background-position-y: 49.72%;
 }
-.__container__box__red__content{
-    padding: 33px;
+.__container__box__content__red{
+    padding: 70px 33px 110px;
+    display: flex;
+    flex-direction: column;
 }
-.__content__box__red__title{
+.__content__box__title{
     margin-top: 25px;
     font-family: 'Prata';
     font-size: 28px;
@@ -43,6 +46,9 @@
 .__content__box__text{
     font-family: 'Rubik';
 }
+.__content__box__shop{
+    margin: 45px 10px 10px 0;
+}
 .__box__shop-wine{
     font-family: 'Rubik';
     font-size: 15px;
@@ -50,8 +56,6 @@
     color: var(--text-color);
     background-color: var(--button-color);
     text-align: center;
-    margin: 10px;
-    margin-top: 45px;
     padding: 16px 25px;
     border: var(--button-color) 3px;
     border-style: solid;
@@ -61,7 +65,7 @@
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
 }
-.discount__container__box__white__content{
+.discount__container__box__content:nth-child(2) {
     margin-top: 50px;
     padding: 0 15px;
     background-image: url(../img/discount__container__box__white.webp);
@@ -71,14 +75,13 @@
     background-position-x: 14.46%;
     background-position-y: 51.16%;
 }
-.__container__box__white__content{
-    padding: 33px;
+.__container__box__content__white{
+    padding: 70px 33px 110px;
+    display: flex;
+    flex-direction: column;
 }
-.__content__box__white__title{
-    margin-top: 25px;
-    font-family: 'Prata';
-    font-size: 28px;
-    padding-top: 2rem;
+.__container__box__content__white .__content__box__white__shop{
+    margin: 45px 10px 10px 0;
 }
 .discount__container__bonus{
     margin-top: 50px;
