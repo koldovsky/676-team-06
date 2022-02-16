@@ -172,6 +172,26 @@
   transform: translateY(-5px);
 }
 
+/* burger menu */
+
+.burger__menu {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 16px;
+}
+
+.burger__menu span {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 2px;
+  left: 0;
+  background-color: var(--text-color);
+  cursor: pointer;
+  z-index: 1;
+}
+
 /* media */
 
 @media (min-width: 320px) {
