@@ -88,7 +88,6 @@ a{
         width: 30px;
         height: 30px;
         background: none;
-        /* border: 1px var(--button-color) solid; */
         color: var(--button-color);
         margin: 0 7.5px 15px;
     }
@@ -196,6 +195,7 @@ a{
         font-size: 14px;
         line-height: 22px;
         margin: -10px -5px;
+        font-weight: bolder;
     }
     .footer__list-item a:hover {
         font-weight: 500;
@@ -251,6 +251,7 @@ a{
         font-size: 14px;
         line-height: 22px;
         margin: -10px 0;
+        font-weight: bolder;
     }      
     li.footer__list-item_media{
         justify-content: left;
