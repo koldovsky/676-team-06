@@ -1,0 +1,85 @@
+.discover{
+    background-image: url(../img/discover__bg.jpg);
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.discover__container{
+    padding: 0 24px;
+}
+.discover__container__content{
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.discover__container__subtext{
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 14px;
+}
+.discover__container__title{
+    font-family: 'Prata', serif;
+    font-size: 58px;
+}
+.discover__stick {
+    margin-top: 35px;
+    padding-top: 2.735042735042735%;
+    min-height: 32px;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+.discover__stick img {
+    object-fit: contain;
+    width: 200px;
+}
+.discover__container__text{
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+.discover__container__navigation{
+    margin-top: 50px;
+    display: flex;
+    padding: 0 15px;
+}
+
+
+.discover__buy {
+    border: 3px solid var(--button-color);
+    background-color: var(--button-color);
+    padding: 15px 30px;
+    color: var(--text-color);
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 16.5px;
+    font-family: "Rubik";
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+.discover__buy:hover{
+    background-color: #a35832;
+    border: 3px solid #a35832;
+    color: var(--text-color);
+    transition: background-color 0.5s linear, color 0.5s linear,
+    border 0.5s linear;
+}
+.discover__learn-more {
+    border: 3px solid var(--text-color);
+    color: var(--text-color);
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 16.5px;
+    font-family: "Rubik";
+    border-radius: 2px;
+    display: inline-block;
+    line-height: 1.2;
+  }
+  .discover__learn-more:hover {
+    background-color: var(--text-color);
+    color: var(--dark);
+    transition: background-color 0.5s linear, color 0.5s linear,
+      border 0.5s linear;
+  }
