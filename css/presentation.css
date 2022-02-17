@@ -1,0 +1,84 @@
+.presentation {
+    padding: 90px 60px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+.presentation_container {
+    margin-top: 50px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.special-events_box {
+    margin-top: 50px;
+    padding: 0 15px;
+    justify-content: center;
+    background-image: url(../img/img-wine.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.organic-wines_box {
+    margin-top: 50px;
+    padding: 0 15px;
+    background-image: url(../img/img-glasses.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.selected-grape_box {
+    margin-top: 50px;
+    padding: 0 15px;
+    background-image: url(../img/img-grape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content_container {
+    padding: 57vh 33px 33px;
+    height: 35%;
+}
+
+.content_container_box {
+    padding: 33px;
+    margin-top: 65%;
+}
+.bold-type_text {
+    font-family: 'Prata';
+    font-size: 22px;
+    padding-top: 2rem;
+}
+.line {
+    justify-content: left;
+}
+
+.horizontal__line {
+    background-color: var(--button-color);
+    height: 2px;
+    width: 40.9375px;
+}
+.standard-type_text {
+    margin-top: 25px;
+    font-family: 'Rubik';
+    font-size: 16px;
+    padding-top: 2rem;
+    padding: 0;
+}
+.link_container {
+    text-align: left;
+    display: flex;
+    justify-items: left;
+}
+.link_learn {
+    font-family: 'Rubik';
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+    margin: 0;
+    padding: 0 0 16px;
+}
+.link_learn:hover {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
