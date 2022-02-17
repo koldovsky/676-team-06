@@ -28,7 +28,6 @@
     font-size: 58px;
 }
 .discover__stick {
-    margin-top: 25px;
     padding-top: 2.735042735042735%;
     min-height: 32px;
     max-width: 100%;
@@ -90,4 +89,32 @@
     color: var(--dark);
     transition: background-color 0.5s linear, color 0.5s linear,
       border 0.5s linear;
+  }
+  @media (min-width:768px) {
+      .discover__container{
+          padding: 132.5px 0 137.5px;
+      }
+      .discover__container__box{
+        padding: 0 32px;
+    }
+      .discover__container__subtext{
+          font-size: 21px;
+      }
+      .discover__container__title{
+          font-size: 71px;
+      }
+  }
+  @media (min-width:992px) {
+      .discover__container{
+          padding: 165px 0 175px;
+      }
+      .discover__container__box{
+        padding: 0 40px;
+    }
+      .discover__container__subtext{
+          font-size: 28px;
+      }
+      .discover__container__title{
+          font-size: 84px;
+      }
   }
