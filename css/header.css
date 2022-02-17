@@ -338,6 +338,7 @@
   .header__nav-social {
     display: flex;
     align-items: center;
+    margin-left: 170px;
   }
 
   .header__socials-icons {
@@ -386,8 +387,7 @@
 
 @media (min-width: 1560px) {
   .header__nav-logo {
-    padding-left: 175px;
-    padding-right: 175px;
+    padding-left: 270px;
   }
   .header__intro-container {
     padding-left: 60px;
@@ -395,6 +395,9 @@
 }
 
 @media (min-width: 1810px) {
+  .header__nav-social {
+    margin-left: 350px;
+  }
   .header__nav-logo {
     padding: 30px 350px;
   }
