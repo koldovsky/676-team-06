@@ -138,6 +138,8 @@
 }
 @media (min-width: 992px) {
     .awards__container {
+        max-width: 1200px;
+        margin: 0 auto;
         padding: 0 40px;
     }
     .awards__container__header__title{
@@ -145,5 +147,8 @@
     }
     .awards__container__header__text{
         font-size: 48px;
+    }
+    .__content__box__lists__item:nth-child(1){
+        padding: 0 15px;
     }
 }

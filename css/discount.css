@@ -87,11 +87,15 @@
 .discount__container__bonus{
     margin-top: 50px;
     pad: 0 15px;
-    background: url(../img/discount__container__bonus__background.webp) var(--button-color);
+    background: var(--button-color);
+}
+.discount__container__bonus__content {
+    background-image: url(../img/discount__container__bonus__background.webp) ;
     background-size: contain, auto;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
+
 }
 .discount__container__bonus{
     margin: 24px;
@@ -122,11 +126,10 @@
     border-radius: 2px;
 }
 .__bonus__content_join:hover {
-    background-color: #a35832;
-    border: 3px solid #a35832;
-    color: var(--text-color);
+    background-color: var(--text-color);
+    color: var(--main-color);
     transition: background-color 0.5s linear, color 0.5s linear,
-    border 0.5s linear;
+      border 0.5s linear;
 }
 @media (min-width: 768px) {
     .discount__container{

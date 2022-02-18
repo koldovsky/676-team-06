@@ -59,6 +59,7 @@
     padding: 0 15px;
     display: grid;
     text-align: left;
+    cursor: pointer;
 }
 .video__start__play img{
     width: 50px;
@@ -71,6 +72,9 @@
     font-family: 'Rubik';
     font-weight: 600;
     margin-top: 20px;
+}
+.culture__container__navigation__content:hover{
+    text-decoration: underline;
 }
 @media (min-width: 768px) {
     .culture__container{
@@ -90,6 +94,11 @@
     .culture {
         padding: 165px 0;
     }
+    .culture__container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
     .culture__container__box__subtext{
         font-size: 28px;
     }
@@ -107,5 +116,16 @@
     .culture__container__navigation__content{
         font-size: 18px;
         font-weight: 700;
+    }
+}
+@media (min-width: 1280px) {
+    .culture__container{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 26.5px;
+    }
+    .culture__container__box {
+        padding: 0 auto;
     }
 }
