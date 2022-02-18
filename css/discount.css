@@ -90,7 +90,7 @@
     background: var(--button-color);
 }
 .discount__container__bonus__content {
-    background-image: url(../img/discount__container__bonus__background.webp) ;
+    background-image: linear-gradient(rgba(200,105,58, 0.82),rgba(200,105,58, 0.82)), url(../img/discount__container__bonus__background.webp) ;
     background-size: contain, auto;
     background-repeat: no-repeat;
     background-position-x: right;
