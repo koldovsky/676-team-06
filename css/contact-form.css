@@ -32,19 +32,22 @@
     background-color: rgba(73, 73, 73, 0.24);
 }
 .contact-form_container--email_box input:hover{
-    border-color: #fff;
+    border-color: var(--text-color);
 }
 .submit {
-    color: #fff;
-    background-color: #c8693a;
+    color: var(--text-color);
+    background-color: var(--button-color);
     box-sizing: border-box;
     cursor: pointer;
     font-family: Rubik,sans-serif;
     text-decoration-style: solid;
-    transition-duration: 0.2s;
-    transition-delay: 0s;
-    transition-timing-function: ease-in;
     border-color: #f2efe9;
+}
+.submit:hover {
+    background-color: #a35832;
+    border: 3px solid #a35832;
+    color: var(--text-color);
+    transition: background-color 0.5s ease-in;
 }
 #contact-form_divider{
     box-sizing: border-box;
